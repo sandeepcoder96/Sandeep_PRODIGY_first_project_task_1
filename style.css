@@ -1,0 +1,68 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* Navigation Bar */
+
+header{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:transparent;
+transition:0.4s;
+}
+
+header.scrolled{
+background:#000;
+}
+
+.logo{
+color:white;
+font-size:24px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+list-style:none;
+}
+
+.menu li{
+margin:0 15px;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:yellow;
+}
+
+/* Hero Section */
+
+.hero{
+height:100vh;
+background:linear-gradient(45deg,#6a11cb,#2575fc);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+/* Content */
+
+.content{
+padding:100px;
+height:500px;
+}
